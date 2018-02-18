@@ -1,0 +1,197 @@
+body {
+  font-family: 'Tahoma', Segoe UI, Geneva, Verdana, sans-serif;
+}
+button:focus {
+  outline: none;
+}
+.header {
+  padding: 77px 0 96px;
+}
+.header-text {
+  max-width: 526px;
+  margin-top: 50px;
+}
+.header-text__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.header-text__subtitle {
+  font-size: 30px;
+
+  margin: 10px 0 30px;
+}
+.header-text__descr {
+  font-size: 18px;
+}
+.header-text__price {
+  font-size: 48px;
+
+  margin: 29px 0 55px;
+
+  color: #313131;
+}
+.button {
+  font-size: 24px;
+  font-weight: 700;
+
+  padding: 22px 43px;
+
+  color: #fff;
+  border-radius: 5px;
+  background-color: #f05a22;
+}
+.button-o {
+  margin-left: 35px;
+
+  color: #f05a22;
+  border: 2px solid #f05a22;
+  background-color: transparent;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+
+  margin-bottom: 69px;
+}
+.delivery-and-pay {
+  padding: 89px 0 99px;
+
+  text-align: center;
+
+  border: 1px solid #fff;
+  background-color: #f2f2f2;
+}
+.delivery-and-pay__text {
+  font-size: 18px;
+
+  max-width: 241px;
+}
+.delivery-and-pay__img {
+  position: relative;
+
+  height: 75px;
+  margin-top: 10px;
+}
+.delivery-and-pay__img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+}
+.who-bought {
+  padding: 89px 0 80px;
+
+  text-align: center;
+}
+.who-boght__img {
+  margin-bottom: 30px;
+}
+.header-img {
+  display: block;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .header-text {
+    margin: 10px auto 0;
+  }
+  .header-text__title {
+    font-size: 35px;
+  }
+  .header-text__subtitle {
+    font-size: 25px;
+
+    margin: 10px 0 20px;
+  }
+  .header-text__descr {
+    font-size: 16px;
+  }
+  .header-text__price {
+    font-size: 35px;
+
+    margin: 25px 0 45px;
+  }
+  .delivery-and-pay__img {
+    height: 55px;
+  }
+  .delivery-and-pay__text {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 16px;
+
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-text {
+    margin-top: 30px;
+
+    text-align: center;
+  }
+  .header,
+  .delivery-and-pay,
+  .who-bought {
+    padding: 20px 0 40px;
+  }
+  .delivery-and-pay__img {
+    margin: 0;
+  }
+  .delivery-and-pay__text {
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 30px 0 50px;
+  }
+  .header-text {
+    text-align: center;
+  }
+  .section-title {
+    font-size: 22px;
+
+    margin-bottom: 40px;
+  }
+  .delivery-and-pay {
+    padding: 45px 0 50px;
+  }
+  .delivery-and-pay__text {
+    max-width: none;
+    margin-bottom: 30px;
+  }
+  .header-text__title {
+    font-size: 28px;
+  }
+  .header-text__subtitle {
+    font-size: 19px;
+
+    margin: 10px 0 20px;
+  }
+  .header-text__descr {
+    font-size: 14px;
+  }
+  .header-text__price {
+    font-size: 28px;
+
+    margin: 20px 0 30px;
+  }
+  .header .button {
+    font-size: 15px;
+
+    padding: 10px 19px;
+  }
+  .header .button-o {
+    margin-left: 10px;
+  }
+  .who-bought {
+    padding: 45px 0 40px;
+  }
+}
